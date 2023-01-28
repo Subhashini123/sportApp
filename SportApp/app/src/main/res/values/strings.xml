@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sport App</string>
+    <string name="member_info">My Profile</string>
+    <string name="my_points">My Points</string>
+</resources>
