@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sport App</string>
+    <string name="member_info">My Profile</string>
+    <string name="my_points">My Points</string>
+    <string name="wicket_keeper">Wicket Keeper :</string>
+    <string name="captain_name">Captain Name :</string>
+</resources>

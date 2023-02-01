@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/textDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_team1"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/images"
+                android:padding="12dp"
+                android:text="India"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_team1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_team1"
+                android:layout_marginStart="40dp"
+                android:text="India"
+
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/rounder_background"
+                android:padding="8dp"
+                android:text="India"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/img_team2"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:background="@drawable/new_z"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"
+
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/tv_team2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="50dp"
+                android:layout_below="@+id/img_team2"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_addresss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_team2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/darker_gray"
+                android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="India"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        android:layout_marginEnd="10dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDetails">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/img_team3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/pak"
+                android:padding="12dp"
+                android:layout_marginStart="5dp"
+                android:text="India"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_team3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_team3"
+                android:layout_marginStart="40dp"
+                android:text="India"
+                android:layout_marginBottom="6dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_date1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/rounder_background"
+                android:padding="8dp"
+                android:text="India"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/img_team4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/sa"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/black"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/tv_team4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="40dp"
+                android:paddingBottom="5dp"
+                android:layout_below="@+id/img_team4"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_addresss1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_team4"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/darker_gray"
+                android:drawableEnd="@drawable/ic_baseline_navigate_next_24"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="India"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
